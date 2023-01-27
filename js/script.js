@@ -3,13 +3,13 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            urlAdress: './server.php'
+            serverUrl: './assets/db/server.php'
         }
     },
 
     methods: {
         getDiscsInfos() {
-            axios.get(this.urlAdress)
+            axios.get(this.serverUrl)
                 .then(response => {
                     console.log(response.data);
                 })
