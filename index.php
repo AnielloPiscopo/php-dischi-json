@@ -18,7 +18,18 @@
 
 <body>
     <div id="app">
-
+        <main>
+            <div class="container-fluid d-flex flex-wrap">
+                <article v-for="discInfos,key in discsInfos" :key='index' class='d-flex flex-column align-items-center'>
+                    <div class="my_img-container">
+                        <img :src="discInfos.poster" alt="" :title="discInfos.genre" class="w-100">
+                    </div>
+                    <h3>{{discInfos.title}}</h3>
+                    <span>{{discInfos.author}}</span>
+                    <span>{{discInfos.year}}</span>
+                </article>
+            </div>
+        </main>
     </div>
 
 

@@ -3,7 +3,8 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            serverUrl: './assets/db/server.php'
+            serverUrl: './assets/db/server.php',
+            discsInfos : [],
         }
     },
 
@@ -11,7 +12,7 @@ createApp({
         getDiscsInfos() {
             axios.get(this.serverUrl)
                 .then(response => {
-                    console.log(response.data);
+                    this.discsInfos =response.data;
                 })
                 .catch(err => {
                     console.log(err);
