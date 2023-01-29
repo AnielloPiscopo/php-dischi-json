@@ -4,8 +4,8 @@ createApp({
     data() {
         return {
             serverUrl: './assets/db/server.php',
-            discsInfos : undefined,
-            discsInfosActiveIndex: undefined,
+            discsInfos : [],
+            discsInfosActiveIndex: 0,
             isClickedADisc : false,
         }
     },
