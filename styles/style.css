@@ -1,0 +1,54 @@
+:root{
+    --header_bg-color:#06131f;
+    --main_bg-color: #1d2d3c;
+    --text-color:#dae9da;
+    --bold-text-color: white;
+    --card_bg-color:#112030;
+
+    --cards_num:3;
+    --cards_margin-x:2.2rem;
+}
+
+
+
+
+body{
+    color: var(--text-color);
+}
+
+header{
+    background-color: var(--header_bg-color);
+}
+
+header .my_img-container{
+    width: 50px;
+    display: inline-block;
+}
+
+main{
+    background-color: var(--main_bg-color);
+}
+
+main .my_cards-container article{
+    width: calc(100%/var(--cards_num) - var(--cards_margin-x)*2);
+    background-color: var(--card_bg-color);
+    margin: 1.2rem var(--cards_margin-x) 3.5rem var(--cards_margin-x);
+    cursor: pointer;
+}
+
+main .my_cards-container article:hover{
+    filter: brightness(90%);
+}
+
+main .my_cards-container article:active{
+    filter: brightness(50%);
+}
+
+main .my_cards-container article .my_img-container{
+    width: 250px;
+}
+
+main .my_cards-container article .my_title,
+main .my_cards-container article .my_date{
+    color:var(--bold-text-color);
+}
