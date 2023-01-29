@@ -4,7 +4,9 @@ createApp({
     data() {
         return {
             serverUrl: './assets/db/server.php',
-            discsInfos : [],
+            discsInfos : undefined,
+            discsInfosActiveIndex: undefined,
+            isClickedADisc : false,
         }
     },
 
@@ -17,6 +19,15 @@ createApp({
                 .catch(err => {
                     console.log(err);
                 })
+        },
+
+        showActiveDisc(index){
+            this.isClickedADisc = true;
+            this.discsInfosActiveIndex = index;
+        },
+
+        hideActiveDisc(){
+            this.isClickedADisc = false;
         }
     },
 

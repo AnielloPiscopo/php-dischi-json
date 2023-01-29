@@ -42,9 +42,10 @@
 
         <main class="py-3 px-5">
             <div class="container-fluid px-5">
-                <div class="my_cards-container d-flex flex-wrap px-5">
+                <div v-if='discsInfos' class="my_cards-container d-flex flex-wrap px-5">
                     <article v-for="discInfos,index in discsInfos" :key='index'
-                        class='d-flex flex-column align-items-center rounded rounded-3 p-4' :title="discInfos.genre">
+                        class='d-flex flex-column align-items-center rounded rounded-3 p-4' :title="discInfos.genre"
+                        @click='showActiveDisc(index)'>
                         <div class=" my_img-container">
                             <img :src="discInfos.poster" alt="" class="w-100">
                         </div>
@@ -53,6 +54,27 @@
                             <h3 class="my_title fw-bold">{{discInfos.title}}</h3>
                             <h6>{{discInfos.author}}</h6>
                             <h4 class="my_date fw-bold">{{discInfos.year}}</h4>
+                        </div>
+                    </article>
+                </div>
+
+                <div v-if="isClickedADisc"
+                    class="my_card-container position-fixed top-0 start-0 end-0 bottom-0 m-3 rounded rounded-3">
+                    <div class="my_btn-container text-end p-4">
+                        <span class="my_btn border border-1 rounded rounded-3 py-2 px-3"
+                            @click='hideActiveDisc()'>X</span>
+                    </div>
+                    <article
+                        class='d-flex flex-column align-items-center justify-content-center rounded rounded-3 p-4 h-100'
+                        :title="discsInfos[discsInfosActiveIndex].genre">
+                        <div class=" my_img-container">
+                            <img :src="discsInfos[discsInfosActiveIndex].poster" alt="" class="w-100">
+                        </div>
+
+                        <div class="my_card-info d-flex flex-column align-items-center pt-4 pb-2 text-center">
+                            <h3 class="my_title fw-bold">{{discsInfos[discsInfosActiveIndex].title}}</h3>
+                            <h6>{{discsInfos[discsInfosActiveIndex].author}}</h6>
+                            <h4 class="my_date fw-bold">{{discsInfos[discsInfosActiveIndex].year}}</h4>
                         </div>
                     </article>
                 </div>
