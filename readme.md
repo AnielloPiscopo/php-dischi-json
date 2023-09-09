@@ -1,15 +1,17 @@
 <div align="center">
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
-<br>php-dischi-json
+<img src="https://img.shields.io/badge/PHP-777BB4.svg?style&logo=PHP&logoColor=white" alt="PHP width="100" />
+<br>PHP-STRONG-PASSWORD-GENERATOR
 </h1>
-<h3>◦ HTTPStatus Exception: 429</h3>
-<h3>◦ Developed with the software and tools listed below.</h3>
+<h3>◦ Simple page that shows a list of disks made with PHP , CSS , bootstrap and JS</h3>
+<h3>◦ Developed during the course of Full-Stack Web Developer with Boolean</h3>
 
 <p align="center">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style&logo=JavaScript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/PHP-777BB4.svg?style&logo=PHP&logoColor=white" alt="PHP" />
 <img src="https://img.shields.io/badge/JSON-000000.svg?style&logo=JSON&logoColor=white" alt="JSON" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style&logo=JavaScript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/CSS3-E34F26.svg?style&logo=CSS3&logoColor=white" alt="CSS3" />
 </p>
 <img src="https://img.shields.io/github/languages/top/AnielloPiscopo/php-dischi-json?style&color=5D6D7E" alt="GitHub top language" />
 <img src="https://img.shields.io/github/languages/code-size/AnielloPiscopo/php-dischi-json?style&color=5D6D7E" alt="GitHub code size in bytes" />
@@ -19,135 +21,40 @@
 
 ---
 
-## 📒 Table of Contents
-- [📒 Table of Contents](#-table-of-contents)
-- [📍 Overview](#-overview)
-- [⚙️ Features](#-features)
-- [📂 Project Structure](#project-structure)
-- [🧩 Modules](#modules)
-- [🚀 Getting Started](#-getting-started)
-- [🗺 Roadmap](#-roadmap)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [👏 Acknowledgments](#-acknowledgments)
-
----
-
-
-## 📍 Overview
-
-HTTPStatus Exception: 429
-
----
-
-## ⚙️ Features
-
-HTTPStatus Exception: 429
-
----
-
-
-## 📂 Project Structure
-
-
-
-
----
-
-## 🧩 Modules
-
-<details closed><summary>Root</summary>
-
-| File                                                                                      | Summary                   |
-| ---                                                                                       | ---                       |
-| [index.php](https://github.com/AnielloPiscopo/php-dischi-json/blob/main/index.php)        | HTTPStatus Exception: 429 |
-| [script.js](https://github.com/AnielloPiscopo/php-dischi-json/blob/main/js\script.js)     | HTTPStatus Exception: 429 |
-| [style.css](https://github.com/AnielloPiscopo/php-dischi-json/blob/main/styles\style.css) | HTTPStatus Exception: 429 |
-
-</details>
-
----
-
 ## 🚀 Getting Started
 
 ### ✔️ Prerequisites
 
 Before you begin, ensure that you have the following prerequisites installed:
-> - `ℹ️ Requirement 1`
-> - `ℹ️ Requirement 2`
-> - `ℹ️ ...`
+> 1. Install a Local Web Server: You can use solutions like XAMPP, WAMP, MAMP, or LAMP, depending on your operating system (Windows, macOS, or Linux). These packages include a preconfigured Apache web server, MySQL (or a similar database), and PHP, making it easier to set up your development environment.
+> 2. Configure the Web Server:
+    - Once you've installed the web server, you'll need to configure the folder where your PHP repository is located. This folder is typically named "htdocs" or "www" and is located within the installation directory of your web server.
+    - Copy your PHP repository into the web server's folder.
+> 3. Start the Web Server: Start the local web server from the control panel of the software you've installed (e.g., XAMPP or MAMP).
+    Ensure that the web server is running and that there are no errors during startup.
+> 4. Test the Application: Open a web browser and navigate to http://localhost or http://127.0.0.1. This should load your PHP application if it's configured correctly in the web server's directory.
 
 ### 📦 Installation
 
-1. Clone the php-dischi-json repository:
+1. Clone the repository:
 ```sh
-git clone https://github.com/AnielloPiscopo/php-dischi-json
+git clone https://github.com/AnielloPiscopo/php-dishi-json
 ```
 
 2. Change to the project directory:
 ```sh
-cd php-dischi-json
+cd php-dishi-json
 ```
 
-3. Install the dependencies:
-```sh
-composer install
-```
-
-### 🎮 Using php-dischi-json
+### 🎮 Using php-dishi-json
 
 ```sh
-php main.php
+php index.php
 ```
 
 ### 🧪 Running Tests
 ```sh
 vendor/bin/phpunit
 ```
-
----
-
-
-## 🗺 Roadmap
-
-> - [X] `ℹ️  Task 1: Implement X`
-> - [ ] `ℹ️  Task 2: Refactor Y`
-> - [ ] `ℹ️ ...`
-
-
----
-
-## 🤝 Contributing
-
-Contributions are always welcome! Please follow these steps:
-1. Fork the project repository. This creates a copy of the project on your account that you can modify without affecting the original project.
-2. Clone the forked repository to your local machine using a Git client like Git or GitHub Desktop.
-3. Create a new branch with a descriptive name (e.g., `new-feature-branch` or `bugfix-issue-123`).
-```sh
-git checkout -b new-feature-branch
-```
-4. Make changes to the project's codebase.
-5. Commit your changes to your local branch with a clear commit message that explains the changes you've made.
-```sh
-git commit -m 'Implemented new feature.'
-```
-6. Push your changes to your forked repository on GitHub using the following command
-```sh
-git push origin new-feature-branch
-```
-7. Create a new pull request to the original project repository. In the pull request, describe the changes you've made and why they're necessary.
-The project maintainers will review your changes and provide feedback or merge them into the main branch.
-
----
-
-## 📄 License
-
-This project is licensed under the `ℹ️  INSERT-LICENSE-TYPE` License. See the [LICENSE](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) file for additional info.
-
----
-
-## 👏 Acknowledgments
-
-> - `ℹ️  List any resources, contributors, inspiration, etc.`
 
 ---
