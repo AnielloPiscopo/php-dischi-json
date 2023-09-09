@@ -10,7 +10,6 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style&logo=JavaScript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/PHP-777BB4.svg?style&logo=PHP&logoColor=white" alt="PHP" />
 <img src="https://img.shields.io/badge/JSON-000000.svg?style&logo=JSON&logoColor=white" alt="JSON" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style&logo=JavaScript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/CSS3-E34F26.svg?style&logo=CSS3&logoColor=white" alt="CSS3" />
 </p>
 <img src="https://img.shields.io/github/languages/top/AnielloPiscopo/php-dischi-json?style&color=5D6D7E" alt="GitHub top language" />
